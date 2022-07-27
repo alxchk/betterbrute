@@ -30,7 +30,7 @@ func init() {
 	flag.StringVar(&wordlist, "wordlist", "names.txt", "File with domain subnames")
 	flag.StringVar(&loglevel, "loglevel", "ERROR", "Set logging level (DEBUG|ERROR|WARN|INFO)")
 	flag.StringVar(&logfile, "logfile", "", "Set output log file. Default - stderr")
-	flag.StringVar(&dnstest, "validate", "ifconfig.co:188.113.88.193", "Validate DNS servers using this pair")
+	flag.StringVar(&dnstest, "validate", "dns.msftncsi.com:131.107.255.255", "Validate DNS servers using this pair")
 }
 
 func main() {
